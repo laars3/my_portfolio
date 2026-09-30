@@ -1,8 +1,9 @@
 h1{font-weight: normal}
-body {max-width: 1200px; margin: 0 auto ; padding: 0 3rem;font-family:Georgia, 'Times New Roman', serif;}
-p {padding: 0 1rem}
-td{padding:0 1rem}
+body {max-width: 1300px; margin: 0 auto ; padding: 0 2rem;font-family:Georgia, 'Times New Roman', serif;}
+p {padding: 0 0.5rem}
+td{padding:0 0.5rem}
 h3 {border-bottom:1.5px solid #5c5c5c;padding: 0 0.1rem; padding-bottom: 0.1rem}
 .icon{width:1em; height: 1em; vertical-align: -0.125em; margin-right: 0.3rem}
 a{color: blue; text-decoration:none}
 a:hover{text-decoration:underline}
+table{margin-bottom: 1.5rem}

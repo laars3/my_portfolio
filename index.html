@@ -11,9 +11,9 @@
     <body>
 <header>
 <h1 style="text-align:center;">Lars Ponikvar</h1>
-    <p style="text-align: center;"><a href="#home">Home</a> | <a href="#projects">Projects</a> | <a href="#workx">Work Experience</a> | <a href="cv.pdf">CV</a> | <a href="#contact">Contact</a></p>
+    <p style="text-align: center;"><a href="#home">Home</a> | <a href="#workx">Work Experience</a> | <a href="#projects">Projects</a> | <a href="cv.pdf">CV</a> | <a href="#contact">Contact</a></p>
 </header>
-<h2 style="text-align: center;">Software and ML Engineer</h2>
+<h2 style="text-align: center;">Computer Science Student</h2>
 
 <section id="home">
     <h3>About Me</h3>
@@ -24,39 +24,50 @@
         Aside from my "professional" interests, I like music, watching and playing football (or soccer), and spider-man :D.</p>
 </section>
 
-<table border="1" width="100%">
+<table border="1" width="100%" id="workx">
     <tr>
-        <td width="50%" id="projects" style="vertical-align: top">
-            <h3>Projects</h3>
-            <h4>Objective Vs Novelty</h4>
-            <p>PyTorch, PyVista</p>
-            <p>Evolutionary search experiment testing whether deception determines when novelty search outperforms objective optimization, comparing search strategies across deceptive and non-deceptive control tasks.</p>
-            <h4>DevCheck</h4>
-            <p>Next.js, React</p>
-            <ul>
-                <li>Full-stack app that analyzes GitHub repositories and generates structured evaluation reports.</li>
-                <li>Uses Semgrep static analysis (OWASP Top 10, CWE, SAST) for severity-scored code quality and security findings, with CI via GitHub Actions for automated testing and consistent builds.</li>
-            </ul>
-
-            <!-- space for more projects -->
-
-        </td>
-        <td width="50%" id="workx">
+        <td>
             <h3>Work Experience</h3>
-            <h4><a href="https://www.lamresearch.com/">Lam Research</a>: Software Engineer [Intern]</h4>
+            <h4><a href="https://www.lamresearch.com/">Lam Research</a>: Software Engineer Intern</h4>
+            <p>Python, PyVista, PyVistaQt, NumPy, PyInstaller</p>
             <ul>
-                <li>Built a real-time visualization layer for Lam's TREOS spin-clean tool, one of four in the world, replacing purely numerical output</li>
-                <li>Interfaced with the TREOS Digital Twin to let hardware, software, and process engineers visualize and quantify tests in real time</li>
-                <li>Supported both live and recorded playback</li>
-                <li>Built with Python: PyVista, PyVistaQt, NumPy</li>
+                <li>Built a real-time 3D visualization of TREOS, Lam's newest spin-clean tool for advanced-node chips, replacing numerical-only test output</li>
+                <li>Wrote the rotation and position math for the chuck, media dispensers, and elevating unit</li>
+                <li>Subscribed to the tool's existing machine data stream and rendered its numerical values as motion</li>
+                <li>Added recording and playback so engineers could replay a test and find where a crash occurred during a software recipe</li>
+                <li>Packaged it with PyInstaller as a standalone app for each local digital twin</li>
+                <li>Presented the tool and its code to senior software engineers and the head of software in a code review</li>
             </ul>
             <h4><a href="https://www.sentinelmarine.net/">Sentinel Marine Solutions</a>: Software Engineer</h4>
+            <p>Python, PostgreSQL, Metabase, Docker, GitHub Actions</p>
             <ul>
-                <li>Migrated the production database from H2 to PostgreSQL</li>
-                <li>Built CI/CD pipelines for a weather data API using Docker and GitHub Actions, automating builds, tests, and container deployment</li>
-                <li>Developed and validated a battery health analysis method using current and voltage sensor data</li>
-                <li>Contributed to an agentic bot for the Sentinel app</li>
+                <li>Migrated the company-wide Metabase database from H2 to PostgreSQL</li>
+                <li>Built CI/CD for a weather data API with Docker and GitHub Actions, automating builds, tests, and image deployment</li>
+                <li>Validated the company's battery health algorithm, which estimated health from charging history, against an independent analysis of current and voltage sensor data</li>
+                <li>Worked on an agentic bot for the Sentinel app</li>
             </ul>
+        </td>
+    </tr>
+</table>
+
+<table border="1" width="100%" id="projects">
+    <tr>
+        <td>
+            <h3>Projects</h3>
+            <h4><a href="https://github.com/laars3/objective-vs-novelty">Objective vs Novelty</a> (in progress)</h4>
+            <p>Python, PyTorch, PyVista</p>
+            <ul>
+                <li>Tests whether task deception decides when novelty search outperforms objective optimization</li>
+                <li>Evolves neural network policies under four search strategies (random, objective, novelty, blend) on one deceptive and one non-deceptive task</li>
+            </ul>
+            <h4><a href="https://github.com/laars3/DevCheck">DevCheck</a></h4>
+            <p>TypeScript, Next.js, React, Semgrep</p>
+            <ul>
+                <li>Built a web app that takes a GitHub username and returns a report with scores, strengths, weaknesses, and a hiring recommendation</li>
+                <li>Added Semgrep static analysis (OWASP Top 10, CWE), weighting findings by severity in the overall score</li>
+                <li>Set up GitHub Actions CI for automated tests and builds</li>
+            </ul>
+            <p>More on <a href="https://github.com/laars3">GitHub</a>.</p>
         </td>
     </tr>
 </table>
@@ -65,9 +76,9 @@
     <h3>Contacts</h3>
     <p>
         <a href="https://github.com/laars3" class="icon-link"> <img src="svg/github.svg" alt="GitHub" class="icon">GitHub </a> |
-        <a href="https://www.linkedin.com/in/lars-ponikvar-a885923aa/" class="icon-link"> <img src="svg/linkedin.svg" alt="Linkedin" class="icon">LinkedIn</a> |
+        <a href="https://www.linkedin.com/in/lars-ponikvar-a885923aa/" class="icon-link"> <img src="svg/linkedin.svg" alt="LinkedIn" class="icon">LinkedIn</a> |
         Gmail: <a href="mailto:lars.ponikvar@gmail.com">lars.ponikvar@gmail.com</a> |
-        Icloud: <a href="mailto:lars.ponikvar@icloud.com">lars.ponikvar@icloud.com</a>
+        iCloud: <a href="mailto:lars.ponikvar@icloud.com">lars.ponikvar@icloud.com</a>
     </p>
 </section>
 
