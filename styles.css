@@ -1,8 +1,8 @@
-h1{font-weight: normal}
-body {max-width: 1300px; margin: 0 auto ; padding: 0 2rem;font-family:Georgia, 'Times New Roman', serif;}
+h1{font-weight: 575;}
+body {max-width: 1300px; margin: 0 auto ; padding: 2rem 2rem;font-family:Arial, 'Arial', serif;}
 p {padding: 0 0.5rem}
 td{padding:0 0.5rem}
-h3 {border-bottom:1.5px solid #5c5c5c;padding: 0 0.1rem; padding-bottom: 0.1rem}
+h3 {padding: 0 0.1rem}
 .icon{width:1em; height: 1em; vertical-align: -0.125em; margin-right: 0.3rem}
 a{color: blue; text-decoration:none}
 a:hover{text-decoration:underline}
