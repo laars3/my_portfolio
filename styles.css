@@ -1,5 +1,8 @@
-h1{font-weight: 575;}
-body {max-width: 800px; margin: 0 auto ; padding: 2rem 2rem;font-family:Arial, 'Arial', serif;}
+h1{font-weight: 575; font-size:20px }
+body {margin: 0; padding: 2rem 0;font-family:'Times New Roman', Times, serif;}
+h1, h3, h4 {font-family: Arial, Helvetica, sans-serif}
+.content {max-width: 1000px; margin: 0 auto; padding: 0 2rem}
+hr {margin-left: 1.5rem; margin-right: 1.5rem}
 p {padding: 0 0.5rem}
 td{padding:0 0.5rem}
 h3 {padding: 0 0.1rem}
