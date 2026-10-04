@@ -3,8 +3,6 @@ body {margin: 0; padding: 2rem 0;font-family:'Times New Roman', Times, serif;}
 h1, h3, h4 {font-family: Arial, Helvetica, sans-serif}
 .content {max-width: 1000px; margin: 0 auto; padding: 0 2rem}
 hr {margin-left: 1.5rem; margin-right: 1.5rem}
-p {padding: 0 0.5rem}
-td{padding:0 0.5rem}
 h3 {padding: 0 0.1rem; font-size:15px}
 h4 {margin-bottom: 0.2rem}
 .stack {font-size: 0.9em; margin: 0 0 0.3rem; padding: 0}
@@ -12,10 +10,10 @@ ul {padding-left: 1.2rem; margin-top: 0}
 section {display: grid; grid-template-columns: 10rem 1fr; column-gap: 1.5rem; margin-bottom: 2rem}
 section h3 {margin-top: 0}
 .section-body > :first-child {margin-top: 0}
+.section-body p {margin-top: 0}
 @media (max-width: 600px) {
     section {display: block}
 }
 .icon{width:1em; height: 1em; vertical-align: -0.125em; margin-right: 0.3rem}
 a{color: #9b2335; text-decoration: underline; text-decoration-color: #e3b5bd; text-underline-offset: 3px}
 a:hover{text-decoration-color: #9b2335}
-table{margin-bottom: 1.5rem}
