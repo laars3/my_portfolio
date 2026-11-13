@@ -4,7 +4,7 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lars Ponikvar Portfolio</title>
+        <title>Lars Ponikvar</title>
         <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -18,7 +18,7 @@
             lars.ponikvar@icloud.com<br>
         <a href="https://github.com/laars3" class="icon-link"><img src="svg/github.svg" alt="GitHub" class="icon"></a>
         <a href="https://www.linkedin.com/in/lars-ponikvar-a885923aa/" class="icon-link"><img src="svg/linkedin.svg" alt="LinkedIn" class="icon"></a>
-        <a href="cv.pdf">CV</a>
+        CV on request
     </p>
 </header>
 <hr>
@@ -27,8 +27,8 @@
 <section id="home">
     <h3>ABOUT ME</h3>
     <div class="section-body">
-    <p>Hi! My name is Lars, and I am a senior CS undergrad and a DIV I and Slovenian national team fencer. My current areas of interest in CS mostly span Machine Learning,
-        Computation Theory, and Algorithms, along with the mathematics behind them, but I truly like all areas of CS. Next, I plan to pursue a Master's degree and figure out which parts
+    <p>Hi! My name is Lars, and I am a senior CS undergrad and a DIV I and Slovenian national team epee fencer. My current areas of interest in CS mostly span Machine Learning,
+        Theory and Algorithms, along with the mathematics behind them, but I truly like all areas of CS. I plan to pursue a Master's degree and figure out which parts
         of this complex yet beautiful field I want to go deeper into. Some research areas that I have been involved in recently cover
         Vehicular Cloud Computing under the supervision of Professor Puya Ghazizadeh, and some Machine Learning I have been pursuing independently.
         Aside from my "professional" interests, I like music, reading, watching and playing football (or soccer, specifically Barcelona), algorithmic puzzles, and Spider-Man :D.
@@ -39,30 +39,28 @@
 <section id="workx">
             <h3>WORK EXPERIENCE</h3>
     <div class="section-body">
-            <h4><a href="https://www.lamresearch.com/">Lam Research</a>: Software Engineer Intern</h4>
+            <h4><a href="https://www.lamresearch.com/">Lam Research</a>: Software Engineer Intern, Embedded Software</h4>
             <p class="stack">Python, PyVista, PyVistaQt, NumPy, PyInstaller</p>
-            <ul>
-                <li>Worked on the embedded software team</li>
-                <li>Built a live 3D visualization layer for TREOS software testing</li>
-            </ul>
             <h4><a href="https://www.sentinelmarine.net/">Sentinel Marine Solutions</a>: Software Engineer</h4>
             <p class="stack">Python, PostgreSQL, Metabase, Docker, GitHub Actions</p>
-            <ul>
-                <li>Migrated the company's Metabase database from H2 to PostgreSQL</li>
-                <li>Repaired and updated a weather data API and built its CI/CD pipeline</li>
-                <li>Validated the company's battery health algorithm against current and voltage sensor data</li>
-            </ul>
     </div>
 </section>
 
 <section id="projects">
             <h3>PROJECTS</h3>
     <div class="section-body">
-            <h4><a href="https://github.com/laars3/objective-vs-novelty">Objective vs Novelty</a> (<a href="https://github.com/laars3/objective-vs-novelty/blob/main/paper.pdf">paper</a>)</h4>
+            <h4><a href="https://github.com/laars3/objective-vs-novelty">Objective vs Novelty</a></h4>
             <p class="stack">Python, PyTorch, NumPy, PyVista</p>
             <ul>
                 <li>Compared random, objective, novelty, and blend selection for neuroevolved agents building 3D block structures, on a deceptive bridge task and a non-deceptive tower task</li>
                 <li>Found that novelty search never beat objective search, and that what the agent could observe mattered more than the search method</li>
+                <li>Check out the <a href="https://github.com/laars3/objective-vs-novelty/blob/main/paper.pdf">paper</a>!</li>
+            </ul>
+            <h4><a href="https://github.com/laars3/net-detective">Net Detective</a> (in progress)</h4>
+            <p class="stack">Python, pandas, scikit-learn</p>
+            <ul>
+                <li>Network intrusion detection tool, built with a teammate, that classifies network flows as benign or malicious</li>
+                <li>Trained a random forest on the improved CICIDS2017 dataset, removing duplicate rows and columns that leaked the label</li>
             </ul>
             <h4><a href="https://github.com/laars3/DevCheck">DevCheck</a></h4>
             <p class="stack">TypeScript, Next.js, React, Semgrep</p>
@@ -82,6 +80,10 @@
 
     </section>
 </main>
+
+<footer class="content">
+    <p>Last updated November 2026</p>
+</footer>
 
 </body>
 </html>
